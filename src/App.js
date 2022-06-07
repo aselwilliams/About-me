@@ -2,7 +2,9 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 import './App.css';
 import Homepage from './components/Homepage';
 import Tools from './components/Tools';
-import Choices from './components/Choices'
+import Choices from './components/Choices';
+import Sites from './components/Sites';
+import NotFoundPage from './components/NotFoundPage';
 
 function App() {
   return (
