@@ -5,10 +5,13 @@ function Tools() {
     <div>
         <h1>Essential Front End web development tools</h1>
      <table>
+         <thead>
          <tr>
             <th>Tools</th>
             <th>Description</th>
          </tr>
+         </thead>
+         <tbody>
          <tr>
              <th>Code Editors</th>
             <td><br/>As a developer, you spend most of your day in your code editor because it's the place you actually write the code for your sites. All editors provide the plain text format needed for your code to be interpreted as a website.
@@ -53,6 +56,7 @@ function Tools() {
                 <br/><br/>
             CodePen is the most diverse online coding environment in that you can write HTML, CSS, and JavaScript, and even try out those libraries and frameworks you were just reading about. <br/><br/></td>
         </tr>
+        </tbody>
     </table>
     </div>
   )

@@ -5,11 +5,14 @@ function Sites() {
     <div>
         <h1>Websites to follow:</h1>
     
-    <table style="border-style: solid double">
+    <table style={{borderStyle: "solid double"}}>
+        <thead>
         <tr>
             <th>Websites</th> 
             <th>Description</th>
         </tr>
+        </thead>
+        <tbody style={{borderStyle: "solid double"}}>
         <tr class="odd">
             <td><a href="https://www.seytech.co/" target="_blank">Seytech</a></td>
             <td>Lorem ipsum dolor sit amet.</td>
@@ -38,6 +41,7 @@ function Sites() {
             <td><a href="https://www.quora.com/" target="_blank">Quora</a></td>
             <td>Lorem ipsum dolor sit amet.</td>
         </tr>
+        </tbody>
     </table>
         
     </div>
