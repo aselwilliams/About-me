@@ -21,8 +21,6 @@ function App() {
               <Route path='/choices' element={<Choices />} />
               <Route path='/follow-sites' element={<Sites />} />
               <Route path='*' element={<NotFoundPage/>} />
-
-             
             </Routes>
           </BrowserRouter>
         </div>
