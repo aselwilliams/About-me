@@ -5,10 +5,12 @@ body {
 }
 .homepage {
   background-color: lavenderblush;
+  padding:2rem;
 }
 img {
   height: 300px;
   width: 200px;
+  margin-bottom: 2rem;
 }
 .nav {
   background-color: lavender;
